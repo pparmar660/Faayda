@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dashboard_view_changer"
+        android:padding="@dimen/default_margin"
+        android:text="@string/backup"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_text"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/default_margin_double"
+        android:paddingLeft="@dimen/default_margin"
+        android:paddingTop="@dimen/default_margin_double"
+        android:text="@string/backup_desc"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text"
+        android:visibility="gone" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dashboard_view_changer"
+        android:padding="@dimen/default_margin"
+        android:text="@string/alert"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_text" />
+
+    <!--    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_double"
+            android:layout_marginTop="@dimen/default_margin_double">
+
+            <TextView
+                android:id="@+id/tv_play_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_margin"
+                android:text="@string/play_alarm"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text" />
+
+            <Switch
+                android:id="@+id/sw_play_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_double"
+        android:layout_marginTop="@dimen/default_margin_double">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:text="@string/daily_alarm"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text" />
+
+        <Switch
+            android:id="@+id/sw_daily_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dashboard_view_changer"
+        android:padding="@dimen/default_margin"
+        android:text="@string/add_cash"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_double"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:text="@string/add_cash"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text" />
+
+        <Switch
+            android:id="@+id/sw_cash_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/default_margin"
+        android:text="@string/time_reminder"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/smaller_text" />
+
+
+</LinearLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/settings.xml -->

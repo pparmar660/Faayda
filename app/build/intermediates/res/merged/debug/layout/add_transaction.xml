@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_add_tran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+
+
+                android:padding="12dp">
+
+                <ImageView
+                    android:id="@+id/iv_add_transaction"
+                    android:layout_width="50dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/default_bank" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6">
+
+                    <Spinner
+                        android:id="@+id/sp_bankName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/default_margin"
+                        android:background="@drawable/bottom_border_green" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/sp_bankName"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/input_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/relative1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:background="@color/gray_add"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_debit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:button="@drawable/white_radio_button_design"
+                        android:padding="@dimen/default_margin"
+
+                        android:text="@string/debit"
+                        android:textSize="@dimen/normal_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.33"
+                    android:background="@color/gray_add"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_credit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:button="@drawable/white_radio_button_design"
+                        android:padding="@dimen/default_margin"
+                        android:text="@string/Credit"
+                        android:textSize="@dimen/normal_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.33"
+                    android:background="@color/gray_add"
+                    android:orientation="horizontal"
+                    android:textSize="@dimen/normal_text">
+
+                    <RadioButton
+                        android:id="@+id/rb_refund"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:button="@drawable/white_radio_button_design"
+                        android:padding="@dimen/default_margin"
+                        android:text="@string/refund"
+                        android:textSize="@dimen/normal_text" />
+                </RelativeLayout>
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+
+                <CheckBox
+
+                    android:id="@+id/cb_cash_withdrawl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:button="@drawable/green_black_checkbox"
+                    android:checked="false"
+                    android:padding="@dimen/default_margin_half"
+                    android:text="Cash Withdrawal"
+                    android:textColor="@color/lightblack"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/transcationTypeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+
+
+                    android:layout_toLeftOf="@+id/iv_date_picker"
+                    android:textColor="@color/gray_add"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+
+
+                    android:layout_toLeftOf="@+id/iv_date_picker"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/gray_add"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/iv_date_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/calender" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/transaction_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/transactionAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.3"
+                    android:drawableLeft="@drawable/r_2"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textSize="@dimen/normal_text" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/billerName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="0.7"
+                    android:hint="@string/trans"
+                    android:imeOptions="actionDone"
+                    android:maxLength="30"
+                    android:textSize="@dimen/normal_text" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/deleteTransaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/delete"
+                android:padding="10dp"
+                android:text="Delete"
+                android:textColor="@color/dashboard_text"
+                android:textSize="@dimen/normal_text" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/login_background"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/login_background"
+                    android:text="@string/select_catagory"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/a_z"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <com.faayda.customviews.CustomGridView
+            android:id="@+id/gv_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_add_tran"
+            android:numColumns="4" />
+
+        <TextView
+            android:id="@+id/tv_more_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gv_category"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:background="@drawable/edit_text_selector_new"
+            android:padding="@dimen/default_margin"
+            android:text="@string/more_cat"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</ScrollView><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/add_transaction.xml -->

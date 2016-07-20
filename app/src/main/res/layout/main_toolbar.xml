@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarMain"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:elevation="@dimen/default_margin_half">
+
+    <ImageButton
+        android:id="@+id/ibMenuIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:src="@drawable/menu" />
+
+    <ImageButton
+        android:id="@+id/ibAppIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin_midium"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_toEndOf="@id/ibMenuIcon"
+        android:layout_toRightOf="@id/ibMenuIcon"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/ibBackIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin_midium"
+        android:layout_marginStart="@dimen/default_margin_half"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_toEndOf="@id/ibAppIcon"
+        android:layout_toRightOf="@id/ibAppIcon"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:src="@drawable/back" />
+
+    <FrameLayout
+        android:id="@+id/flMenuItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageButton
+            android:id="@+id/ibNotificationIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin_half"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin_half"
+            android:layout_marginTop="@dimen/default_margin"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            android:src="@drawable/bell"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/default_margin"
+            android:text="SAVE"
+            android:textColor="@color/login_background"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTopBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/tool_title_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#C3C3C3" />
+
+</RelativeLayout>

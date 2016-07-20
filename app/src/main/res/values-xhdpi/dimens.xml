@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="whole_login_top">16dp</dimen>
+    <dimen name="text_button_login">8dp</dimen>
+    <dimen name="login_register_margin">16dp</dimen>
+    <dimen name="log_or_padding">16dp</dimen>
+    <dimen name="login_left_right">20dp</dimen>
+    <dimen name="register_text">16sp</dimen>
+    <dimen name="tool_title_text">15sp</dimen>
+</resources>

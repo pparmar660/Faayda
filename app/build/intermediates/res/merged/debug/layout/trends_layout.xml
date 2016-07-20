@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="150dp">
+
+        <TextView
+            android:id="@+id/tvTrendTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/trend"
+            android:textColor="@color/dashboard_text"
+            android:textSize="@dimen/normal_text" />
+
+        <!-- Chart -->
+        <!--<com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+        <LinearLayout
+            android:id="@+id/llPieChartContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Add Pie Chart-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/default_margin_double"
+                android:layout_marginTop="@dimen/default_margin"
+                android:drawableRight="@drawable/grey_rupee_symbol"
+                android:text="Total income :  "
+                android:textAllCaps="true"
+                android:textColor="@color/normal_text"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/default_margin_double"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/label_defaultValue"
+                android:textAllCaps="true"
+                android:textColor="@color/normal_text"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trChartLegend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin_half"
+            android:background="@drawable/legend_border_grey"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp">
+
+            <RelativeLayout
+                android:id="@+id/rlLatestTransactions"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="@dimen/default_margin">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <RelativeLayout
+                        android:id="@+id/firstLegend"
+                        android:layout_width="@dimen/legend_size"
+                        android:layout_height="@dimen/legend_size"
+                        android:background="@color/pie_chart_color_I" />
+
+                    <TextView
+                        android:id="@+id/tvLatestTransactions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/firstLegend"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/latestTransactions"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+                    <TextView
+                        android:id="@+id/tvLatestTransactionsValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvLatestTransactions"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/firstLegend"
+                        android:drawableLeft="@drawable/rupee"
+                        android:text="@string/label_defaultValue"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlIncome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="@dimen/default_margin">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <RelativeLayout
+                        android:id="@+id/seconLegend"
+                        android:layout_width="@dimen/legend_size"
+                        android:layout_height="@dimen/legend_size"
+                        android:background="@color/pie_chart_color_III" />
+
+                    <TextView
+                        android:id="@+id/tvIncome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/seconLegend"
+                        android:text="Saving"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+
+                    <TextView
+                        android:id="@+id/tvSavingValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvIncome"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/seconLegend"
+                        android:drawableLeft="@drawable/rupee"
+                        android:text="@string/label_defaultValue"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlExpense"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="@dimen/default_margin">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <RelativeLayout
+                        android:id="@+id/thirdLegend"
+                        android:layout_width="@dimen/legend_size"
+                        android:layout_height="@dimen/legend_size"
+                        android:background="@color/pie_chart_color_II" />
+
+                    <TextView
+                        android:id="@+id/tvExpense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/thirdLegend"
+                        android:text="@string/expense"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+                    <TextView
+                        android:id="@+id/tvExpenseValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvExpense"
+                        android:layout_marginLeft="@dimen/default_margin_half"
+                        android:layout_marginStart="@dimen/default_margin_half"
+                        android:layout_toRightOf="@id/thirdLegend"
+                        android:drawableLeft="@drawable/rupee"
+                        android:text="@string/label_defaultValue"
+                        android:textColor="@color/normal_text"
+                        android:textSize="@dimen/smallest_text" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/trends_layout.xml -->

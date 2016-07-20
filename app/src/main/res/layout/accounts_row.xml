@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin">
+
+    <ImageView
+        android:id="@+id/bank_image"
+        android:layout_width="@dimen/bank_icon"
+        android:layout_height="@dimen/bank_icon"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:id="@+id/accountInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bank_image">
+
+        <LinearLayout
+            android:id="@+id/account_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_account_bank_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A/C - "
+
+                    android:textColor="@color/ac_no" />
+
+                <TextView
+                    android:id="@+id/tv_acount_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxx"
+                    android:textColor="@color/ac_no" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fixedDebitCardLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Debit card  - "
+
+                    android:textColor="@color/ac_no" />
+
+                <TextView
+                    android:id="@+id/debitcard_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxx"
+                    android:textColor="@color/ac_no" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/account_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/refresh_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_margin_double"
+                android:layout_toLeftOf="@+id/rupee"
+                android:src="@drawable/update" />
+
+          <!--  <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_margin_double"
+                android:src="@drawable/update"
+                android:visibility="gone" />-->
+
+            <LinearLayout
+                android:id="@+id/rupee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_account_amount_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:drawableLeft="@drawable/r_2"
+                    android:drawablePadding="@dimen/default_margin_half"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/gray_add"
+                    android:textSize="@dimen/smaller_text" />
+
+                <TextView
+                    android:id="@+id/tv_acount_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/color_date"
+                    android:textSize="@dimen/smallest_text"
+                    android:textStyle="italic" />
+
+
+                <LinearLayout
+                    android:id="@+id/outstandngLinear"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:text="O/S - "
+
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/smaller_text" />
+
+                    <TextView
+                        android:id="@+id/outStandingAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:drawableLeft="@drawable/r_2"
+                        android:text="@string/label_defaultValue"
+                        android:textColor="#FF0000"
+                        android:textSize="@dimen/smallest_text"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/debit_card_link_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountInfo"
+        android:layout_marginTop="@dimen/default_margin_half"
+        android:layout_toRightOf="@id/bank_image"
+        android:background="#34495e"
+        android:padding="@dimen/default_margin_half"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/debit_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Debit Card - "
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallest_text" />
+
+        <CheckBox
+            android:id="@+id/linkedStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#182630"
+            android:focusable="false"
+            android:paddingRight="@dimen/default_margin_double"
+            android:text="Link"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallest_text" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

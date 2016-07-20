@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <ListView
+        android:id="@+id/lv_cash_managment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp" />
+
+    <ImageView
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/default_margin_double"
+        android:src="@drawable/floating_add_transaction" />
+</RelativeLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/cash_managment.xml -->

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@drawable/edit_text_selector_new"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/billInfoLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin">
+
+            <ImageView
+                android:id="@+id/img_merchant"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_toRightOf="@id/img_merchant"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_payee_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay"
+                    android:textColor="@color/light_black" />
+
+                <TextView
+                    android:id="@+id/tv_card_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XXXXXX"
+                    android:textColor="@color/dark_black"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <!--com.faayda.customviews.Square-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_no_of_days_due"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@+id/tv_days_due"
+                    android:paddingRight="5dp"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/tv_days_due"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/days_due"
+                    android:textColor="@color/google_login" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_bill_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:drawablePadding="@dimen/default_margin"
+                android:drawableTop="@drawable/bill_2"
+                android:gravity="center"
+                android:text="@string/bill_history"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_previous_month_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_bill_history"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:text="@string/billamt"
+                android:textColor="@color/google_login"
+                android:textSize="12sp" />
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_margin"
+                android:orientation="vertical"
+                android:padding="@dimen/default_margin">
+
+                <TextView
+                    android:id="@+id/tv_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawableLeft="@drawable/rupee"
+                    android:drawablePadding="@dimen/default_margin_half"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_text" />
+
+                <TextView
+                    android:id="@+id/tv_due_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_make_paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/google_login"
+        android:text="@string/make_paid"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/bill_emi_row.xml -->

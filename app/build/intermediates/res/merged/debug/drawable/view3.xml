@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle" >
+
+    <stroke
+        android:width="2dip"
+        android:color="@color/cash_spend_progress" />
+    <solid android:color="@color/cash_spend_progress" />
+    <size android:width="10dp"
+        android:height="10dp"/>
+</shape><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/drawable/view3.xml -->

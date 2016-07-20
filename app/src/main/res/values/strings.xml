@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">faayda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="remember">Remember me</string>
+    <string name="keep_me">Keep me signed In</string>
+    <string name="rate_app">Rate this app</string>
+    <string name="shae_with">Share with</string>
+    <string name="register">REGISTER</string>
+    <string name="cancel">CANCEL</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="spend">Spend</string>
+    <string name="transaction">Transactions</string>
+    <string name="trend">Trends</string>
+    <string name="encryption">256 BIT SSL ENCRYPTION</string>
+    <string name="term">Terms of Services </string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="agree">I agree to the faayda.com</string>
+    <string name="Register_txt">New here? create account with</string>
+    <string name="fayda"><u>faayda.com</u></string>
+    <string name="log_google">Login with</string>
+    <string name="log_text">Login to start using faayda.com</string>
+    <string name="type_of_exp">Type of expense</string>
+    <string name="forget_pass"><u>Forgot Password?</u></string>
+    <string name="Personal">Personal</string>
+    <string name="Bussiness">Business</string>
+    <string name="debit">Debit</string>
+    <string name="Credit">Credit</string>a>z
+    <string name="a_z">a>z</string>
+    <string name="AcCash">A/c - cash</string>
+    <string name="title_text_pop_up">select an account</string>
+    <string name="refund">Refund</string>
+    <string name="click_to_more">Click here for more catagories</string>
+    <string name="withdrawl">Cash withdrawl</string>
+    <string name="transaction_to">Transaction to</string>
+    <string name="select_catagory">Select catagory of expense</string>
+    <string name="enter_email">EMAIL</string>
+    <string name="enter_pass">PASSWORD</string>
+    <string name="action_settings">Settings</string>
+    <string name="noConnection">Please check your internet connection.</string>
+    <string name="postKey">json_data</string>
+    <string name="max_expense_area">Max expense areas</string>
+    <string name="save_card_details">SAVE AND ADD DEBIT CARD</string>
+    <string name="personal">Personalise</string>
+    <string name="business">Business</string>
+    <string name="bnkacc">Bank account</string>
+    <string name="accno">Account number</string>
+    <string name="nick_name">Nick name</string>
+    <string name="accbalance">Account balance</string>
+    <string name="outstanding_amnt">AMOUNT OUTSTANDING</string>
+    <string name="make_paid">Mark as paid</string>
+    <string name="pay_now">Pay now !</string>
+    <string name="personalise">Personalise</string>
+    <string name="for_billers">For billers that do not send SMS alerts</string>
+    <string name="edt_bill">Edit bills</string>
+    <string name="other_info">Nick name, Billing cycle, Due date</string>
+    <string name="billamt">* Bill amount is based on previous month\'s bill</string>
+    <string name="pay">Pay bills</string>
+    <string name="bill_history">Bill history</string>
+    <string name="add_nichname">Add a nick name to the account</string>
+    <string name="link_debit_card">Link debit cards to bank accounts</string>
+    <string name="hide_account">Hide accounts that you don\'t want to see</string>
+    <string name="add_acountt">Add a new bank, debit or credit card account</string>
+    <string name="per_accounts">Personalise accounts</string>
+    <string name="net_bal">Net balance</string>
+    <string name="what">WHAT YOU HAVE</string>
+    <string name="what_you_owe">CREDIT CARD</string>
+    <string name="bank_name">HDFC Bank</string>
+    <string name="cash">Cash</string>
+    <string name="card_no">CARD NUMBER </string>
+    <string name="total"><![CDATA[Total : ]]></string>
+    <string name="latestTransactions">Latest transactions</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="tot_credit_limit">TOTAL CREDIT LIMIT</string>
+    <string name="show_debits_chk">Show debit cards</string>
+    <string name="hdfc">HDFC Bank</string>
+    <string name="label_bug">Bug</string>
+    <string name="label_feature">Feature</string>
+    <string name="label_other">Other</string>
+    <string name="label_hint">Please enter your comments here...</string>
+    <string name="label_rateUs">Please rate us !</string>
+    <string name="label_send">SEND</string>
+    <string name="backup">back up &amp; restore </string>
+    <string name="backup_desc">App will take Back-Up automatically</string>
+    <string name="alert">alerts / notification</string>
+    <string name="play_alarm">Play alarm</string>
+    <string name="daily_alarm">Daily alarm</string>
+    <string name="add_cash">Add cash transaction reminder</string>
+    <string name="cash_reminder">Add cash transaction reminder</string>
+    <string name="time_reminder">Daily 9am IST</string>
+    <string name="due_date">Due Date :</string>
+    <string name="Ac_id">A/c ID</string>
+    <string name="billing_cycle">Billing cycle</string>
+    <string name="auto_genrate">Auto generated bills</string>
+    <string name="before_due">10 days before due date</string>
+    <string name="atm">ATM withdrawal </string>
+    <string name="on">On</string>
+    <string name="select_bank">Select Bank</string>
+    <string name="account_type">Account Type</string>
+    <string name="bill_date">Bill Date</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="paid_to">Paid to</string>
+    <string name="view_more">view more</string>
+    <string name="relax">Relax, No bill due</string>
+    <string name="next_days">In next 7 days</string>
+    <string name="label_defaultValue">00</string>
+
+    <string name="update_account">Update Account Balance</string>
+    <string name="sms_description">Send SMS to your bank to get your latest balance</string>
+    <string name="missed_call_description">Give a missed call to your bank to get the latest balance</string>
+    <string name="to">TO:</string>
+    <string name="text">Text:</string>
+    <string name="sms_note">Note:Only works for accounts enabled for SMS banking. SMS rates may apply from your mobile carrier.</string>
+    <string name="missed_call_note">Note: Only works for accounts enabled for SMS banking.</string>
+    <string name="label_missedCall">Missed Call</string>
+    <string name="label_sms">SMS</string>
+    <string name="label_msg">BAL</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">CANCEL</string>
+
+
+    <string name="medical">Medical</string>
+    <string name="Forgot_text">RETRIEVE YOUR PASSWORD HERE</string>
+    <string name="Forgot_text2">Please enter email address below. You will receive\n a link to reset your password</string>
+    <string name="trans">Transaction to</string>
+    <string name="more_cat">Click here for more categories</string>
+    <string name="bill_emi">BILL &amp; EMI Type </string>
+    <string name="preparing_db">Please wait while we check for transactions...</string>
+    <string name="days_due">days to pay</string>
+    <string name="new_bill">Is this a new bill ?</string>
+    <string name="link_biller">Yes link biller</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="more_category">More Category</string>
+    <string-array name="slide_menu_items">
+        <item>Accounts</item>
+        <item>Bills</item>
+        <item>Cash</item>
+        <item>Settings</item>
+        <item>Feedback</item>
+        <item>Share</item>
+        <item>FAQ</item>
+        <item>Like us on Facebook</item>
+        <item>Follow us on Twitter</item>
+        <item>Refresh SMS</item>
+        <!--<item>About</item>-->
+    </string-array>
+
+</resources>

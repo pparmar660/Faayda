@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="log_or_padding">10dp</dimen>
+    <dimen name="login_left_right">15dp</dimen>
+    <dimen name="login_register_margin">10dp</dimen>
+    <dimen name="register_text">14sp</dimen>
+    <dimen name="text_button_login">5dp</dimen>
+    <dimen name="tool_title_text">14sp</dimen>
+    <dimen name="whole_login_top">10dp</dimen>
+</resources>

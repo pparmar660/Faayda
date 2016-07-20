@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/login_background"
+        android:padding="@dimen/default_margin_double"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:text="@string/title_text_pop_up"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/lv_notification"
+        android:background="@color/white"
+        android:dividerHeight="1.5dp"
+        android:divider="@color/notification_list_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

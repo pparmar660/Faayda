@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="oval" >
+
+    <stroke
+        android:color="@color/cash_spend_progress" />
+    <solid android:color="@color/cash_spend_progress" />
+    <size android:width="3dp"
+        android:height="3dp"/>
+</shape>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/login_btn"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/spend"
+        android:layout_width="wrap_content"
+        android:padding="@dimen/default_margin"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Spend"
+        />
+    <TextView
+        android:id="@+id/spend_T"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+       android:layout_centerHorizontal="true"
+        android:padding="@dimen/default_margin"
+        android:layout_height="wrap_content"
+        android:text="Spend"
+        />
+    <TextView
+        android:id="@+id/spend_R"
+        android:layout_toLeftOf="@+id/spend"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/default_margin"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Spend"
+        />
+</RelativeLayout>

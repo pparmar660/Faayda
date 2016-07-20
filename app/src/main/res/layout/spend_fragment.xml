@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlspendFragmentRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border_grey"
+            android:padding="@dimen/default_margin_double">
+
+            <ImageButton
+                android:id="@+id/ibArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:src="@drawable/next" />
+
+            <TextView
+                android:id="@+id/tvSpendTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spend"
+                android:textColor="@color/dashboard_text"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:id="@+id/tvSpendAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_toLeftOf="@id/ibArrow"
+                android:layout_toStartOf="@id/ibArrow"
+                android:drawableLeft="@drawable/spend_rupee_symbol"
+                android:drawablePadding="@dimen/default_margin_half"
+                android:drawableStart="@drawable/spend_rupee_symbol"
+                android:text="@string/label_defaultValue"
+                android:textColor="@color/spend_amount"
+                android:textSize="@dimen/legend_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSpendMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvSpendTitle"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_toLeftOf="@id/ibArrow"
+                android:layout_toStartOf="@id/ibArrow"
+                android:drawablePadding="@dimen/default_margin_half"
+                android:textColor="@color/spend_month"
+                android:textSize="@dimen/smaller_text" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMaxExpenseArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border_grey"
+            android:padding="@dimen/default_margin_double">
+
+            <TextView
+                android:id="@+id/tvMaxSpendArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/max_expense_area"
+                android:textColor="@color/dashboard_text"
+                android:textSize="@dimen/normal_text" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsvCategoryIcons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvMaxSpendArea"
+                android:layout_marginTop="@dimen/default_margin_half">
+
+                <LinearLayout
+                    android:id="@+id/llCategoryIconsContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSpendCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin_double">
+
+            <TextView
+                android:id="@+id/tvCashTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash withdrawal "
+                android:textColor="@color/dashboard_text"
+                android:textSize="@dimen/normal_text" />
+
+
+            <LinearLayout
+                android:id="@+id/llCashTotalAmound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvCashTotalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total"
+                    android:textColor="@color/dashboard_text"
+                    android:textSize="@dimen/normal_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTotalCashAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_midium"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:layout_toLeftOf="@id/ibArrow"
+                    android:layout_toStartOf="@id/ibArrow"
+                    android:drawableLeft="@drawable/spend_rupee_symbol"
+                    android:drawablePadding="@dimen/default_margin_half"
+                    android:drawableStart="@drawable/spend_rupee_symbol"
+                    android:text="@string/label_defaultValue"
+                    android:textColor="@color/spend_amount"
+                    android:textSize="@dimen/title_text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTotalAmountMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCashTitle"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:drawablePadding="@dimen/default_margin_half"
+                android:textColor="@color/spend_month"
+                android:textSize="@dimen/smallest_text" />
+
+
+            <TextView
+                android:id="@+id/tvCashSpent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTotalAmountMonth"
+                android:layout_marginTop="@dimen/default_margin"
+                android:drawableLeft="@drawable/spend_rupee_symbol"
+                android:drawableStart="@drawable/spend_rupee_symbol"
+                android:text="@string/label_defaultValue"
+                android:textColor="@color/spend_amount"
+                android:textSize="@dimen/normal_text" />
+
+            <LinearLayout
+                android:id="@+id/llCashSliderIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCashSpent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/rounded_view" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="16dp"
+                    android:background="@color/cash_spend_progress" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pbCashSlider"
+                style="?android:progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llCashSliderIndicator"
+                android:elevation="2dp"
+                android:indeterminate="false"
+                android:progress="50"
+                android:progressDrawable="@drawable/cash_spend_progress_bar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pbCashSlider"
+                android:layout_marginTop="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/view3"
+                    android:drawablePadding="@dimen/default_margin_half"
+                    android:text="Expense"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_half"
+                    android:drawableLeft="@drawable/view2"
+                    android:drawablePadding="@dimen/default_margin_half"
+                    android:text="Available"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

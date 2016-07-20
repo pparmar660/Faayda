@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/default_margin_double"
+        android:text="@string/account_type"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/login_background"
+        android:layout_height="wrap_content"
+        android:id="@+id/title" />
+    <ListView
+        android:id="@+id/lv_account_type"
+        android:divider="@color/gray_add"
+        android:dividerHeight="1dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

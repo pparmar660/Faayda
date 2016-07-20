@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/billEmiTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@color/emi_background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_personalise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/img_personalise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:focusable="false"
+                android:src="@drawable/card" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_toRightOf="@id/img_personalise"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personal"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/for_billers"
+                    android:textColor="@color/white"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_edit_bills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/img_edit_bills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:focusable="false"
+                android:src="@drawable/setting" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_toRightOf="@id/img_edit_bills"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edt_bill"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other_info"
+                    android:textColor="@color/white"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|end"
+            android:padding="@dimen/default_margin"
+            android:text="Swipe to dismiss"
+            android:textColor="@color/swipe_dismiss"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <com.faayda.customviews.CustomListView
+        android:id="@+id/lv_bankinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/billEmiTutorial"
+        android:divider="#ffe2e2e2"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical" />
+
+    <ImageView
+        android:id="@+id/iv_add_biller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/default_margin_double"
+        android:src="@drawable/floating_add_transaction" />
+
+</RelativeLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/bill_emi.xml -->

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" /><!--
+    <TextView
+        android:id="@+id/tv_more_category"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/default_margin"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/default_margin_half"
+        android:background="@drawable/edit_text_selector_new"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:text="@string/more_cat"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_add_tran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/transaction_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:drawableLeft="@drawable/rupee"
+                android:textSize="12dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="0.7"
+                android:hint="@string/trans"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:text="@string/type_of_exp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:id="@+id/tv_personal"
+                android:layout_width="0dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/login_background"
+                android:gravity="center"
+                android:text="@string/Personal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_bussiness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/tab_background"
+                android:text="@string/Bussiness" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_debit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@color/gray_add"
+                android:checked="false"
+                android:padding="5dp"
+                android:text="@string/debit" />
+
+            <RadioButton
+                android:id="@+id/rb_credit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.3"
+                android:background="@color/gray_add"
+                android:layout_gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/Credit" />
+
+            <RadioButton
+                android:id="@+id/rb_bussiness"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.3"
+                android:background="@color/gray_add"
+                android:text="@string/refund" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp">
+
+            <CheckBox
+                android:id="@+id/cb_cash_withdrawl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash Widhdrawl"
+                android:textColor="@color/lightblack"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/iv_date_picker"
+                android:text="27 August 2015"
+                android:textColor="@color/gray_add" />
+
+            <ImageView
+                android:id="@+id/iv_date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/calender" />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:background="@color/login_background"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/login_background"
+                android:text="@string/select_catagory"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/a_z"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_text" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gv_category"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:layout_above="@+id/tv_more_category"
+        android:layout_below="@+id/ll_add_tran"
+        android:layout_width="wrap_content"/>
+
+
+</RelativeLayout>-->

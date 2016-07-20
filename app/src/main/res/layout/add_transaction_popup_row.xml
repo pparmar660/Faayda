@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:id="@+id/iv_bank_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_notification_bankname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_double"
+        android:layout_toRightOf="@+id/iv_bank_notification"
+        android:text="HDFC BANK"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/legend_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_notification_bankname"
+        android:layout_marginLeft="@dimen/default_margin_double"
+        android:layout_toRightOf="@+id/iv_bank_notification"
+        android:text="@string/AcCash"
+        android:textAllCaps="false"
+        android:textColor="@color/noti_gray"
+        android:textSize="@dimen/normal_text_plus" />
+
+    <TextView
+        android:id="@+id/tv_notification_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/r_1"
+        android:textColor="@color/login_background"
+        android:textSize="20dp" />
+</RelativeLayout>

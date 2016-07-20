@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/menu_header"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin_double">
+
+    <ImageView
+        android:id="@+id/ivSlideMenuHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_header" />
+
+    <TextView
+        android:id="@+id/tvLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:drawablePadding="@dimen/default_margin"
+        android:gravity="center_vertical"
+        android:text="abc@xyzdef.com"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_text" />
+</LinearLayout>

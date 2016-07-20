@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightSmall"
+    android:gravity="center_vertical"
+    android:textAllCaps="true"
+    android:textColor="@color/slide_menu_item"
+    android:drawablePadding="@dimen/default_margin"
+    android:paddingLeft="@dimen/default_margin_double"
+    android:paddingRight="@dimen/default_margin_double"
+    android:paddingStart="@dimen/default_margin_half"
+    android:paddingEnd="@dimen/default_margin_double"
+    android:textSize="@dimen/normal_text" />
+<!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/slide_menu_item.xml -->

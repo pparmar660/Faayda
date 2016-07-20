@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/tv_account_type"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/a_z"
+    android:textSize="@dimen/normal_text"
+   android:padding="@dimen/default_margin_double"
+    android:textColor="@color/black"/>
+</LinearLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/account_type_row.xml -->

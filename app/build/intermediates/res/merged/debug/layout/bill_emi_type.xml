@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:id="@+id/popUpLinear"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/legend_size"
+        android:padding="@dimen/default_margin"
+        android:textColor="@color/light_black"
+        android:text="@string/bill_emi"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_noti"/>
+    <GridView
+        android:id="@+id/gv_category"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_width="wrap_content"/>
+<!--<TextView
+    android:id="@+id/tv_view_more"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/default_margin"
+    android:layout_margin="@dimen/default_margin_half"
+    android:textAllCaps="true"
+    android:textSize="@dimen/smaller_text"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/dashboard_view_changer"
+    android:text="@string/view_more"
+    android:textColor="@color/white"/>-->
+</LinearLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/bill_emi_type.xml -->

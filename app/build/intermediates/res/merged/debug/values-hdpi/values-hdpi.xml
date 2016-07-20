@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="log_or_padding">16dp</dimen>
+    <dimen name="login_left_right">20dp</dimen>
+    <dimen name="login_register_margin">16dp</dimen>
+    <dimen name="register_text">14sp</dimen>
+    <dimen name="text_button_login">8dp</dimen>
+    <dimen name="tool_title_text">15sp</dimen>
+    <dimen name="whole_login_top">16dp</dimen>
+    <!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barSize">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

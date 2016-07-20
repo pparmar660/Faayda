@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/instructingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@color/emi_background"
+        android:padding="@dimen/default_margin_double"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/per_accounts"
+            android:textSize="@dimen/normal_text"
+            android:textColor="@color/white" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/default_margin_double"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/chk_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="@dimen/default_margin"
+            android:layout_alignParentTop="true"
+            android:text="@string/add_nichname"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/chk_linkcard"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/default_margin_double"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="@dimen/default_margin"
+            android:layout_alignParentTop="true"
+            android:text="@string/link_debit_card"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/chk_hideaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="@dimen/default_margin"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/default_margin_double"
+            android:text="@string/hide_account"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/chk_add_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin_double"
+            android:text="@string/add_acountt"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/swipe_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/default_margin_double"
+            android:gravity="right"
+            android:text="Swipe to dismiss this message"
+            android:textColor="@color/ac_bck"
+            android:textSize="@dimen/smaller_text"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/instructingView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/extraMargin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/default_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/net_bal"
+                    android:textSize="@dimen/legend_size"
+                    android:textColor="@color/light_black" />
+
+                <LinearLayout
+                    android:id="@+id/ll_date_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/bg_color"
+                    android:orientation="vertical"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:id="@+id/tv_account_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/r_3"
+                        android:drawablePadding="@dimen/default_margin"
+                        android:text="@string/label_defaultValue"
+                        android:textSize="@dimen/legend_size"
+                        android:textStyle="bold"
+                        android:layout_gravity="end"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_acc_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_defaultValue"
+                        android:layout_gravity="end"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/smallest_text"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BDBDBD" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="@string/what"
+                    android:textColor="@color/bg_color" />
+
+                <CheckBox
+                    android:id="@+id/chk_show_debits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/default_margin_half"
+                    android:layout_margin="@dimen/default_margin"
+                    android:button="@drawable/gray_checkbox_design"
+                    android:text="@string/show_debits_chk"
+                    android:textColor="@color/gray_add" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BDBDBD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.faayda.customviews.CustomListView
+                    android:id="@+id/lv_accountinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="#ffe2e2e2"
+                    android:dividerHeight="1dip"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BDBDBD" />
+
+            <LinearLayout
+                android:id="@+id/llcreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="@string/what_you_owe"
+                    android:textColor="@color/bg_color" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#BDBDBD" />
+
+                <com.faayda.customviews.CustomListView
+                    android:id="@+id/lvCreditCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="#ffe2e2e2"
+                    android:dividerHeight="1dip"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/iv_add_transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/default_margin_double"
+        android:src="@drawable/floating_add_transaction" />
+</RelativeLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/accounts.xml -->

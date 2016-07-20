@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+
+        android:layout_margin="@dimen/default_margin"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Bill_amount"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:textColor="@color/black"
+            android:drawablePadding="@dimen/default_margin_double"
+            android:drawableLeft="@drawable/default_provider"
+            android:layout_height="wrap_content"
+            android:text="@string/bill_amount"/>
+    </LinearLayout>
+   <include
+       layout="@layout/add_cash"/>
+</LinearLayout>

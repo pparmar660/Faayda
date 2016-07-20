@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-371278621bde960f7a9fd74624cc0b7d3f3bb6e9.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-fee6dd86a2e71e9c1feb0543c09289f9d1ef1dcd.jar" />
+    </item>
+    <item
+        jar="/home/vinove/.gradle/caches/modules-2/files-2.1/eu.the4thfloor.volley/com.android.volley/2015.05.28/b0b08cc0ac897e596abe6b263a9507cba875b705/com.android.volley-2015.05.28.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/com.android.volley-2015.05.28-55abc03c2a174e60c2d733b2f143b2e767f7b7b0.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-be4e08e50330c12227e38d70684a0af5f50f8653.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-8eff6a4c53dd2f8784332e1324ca9274f2807053.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-515841c3708bb021b47312b6f55489f553e10b2a.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-dab7493c9d209ba43cd736be127e170746649647.jar" />
+    </item>
+    <item
+        jar="/home/vinove/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/gson-2.3-5dfaf942f058591ddbdfd9c9efc295113f05d4d2.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-c21e75a71bed7f0a582000910d7afb01ee149c91.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-0c73187c0a397d4b000978f377dc86790d244d55.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a148ad8382c14dec82bc417545087c302738ef72.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-a237110cc2048711fc1385b37a4060a869b6b525.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-7141fc0faf80e0bfde9387f3cce0a518c9d8df44.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-6391e02a0628a3a81d4cb604b31350bda6190a09.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-42f2787ccdd7a68fd2b42c835e79aacae1fa3dcc.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-890ebd8936a449a8b48e95c9f4fd632594ccfa67.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-564fcd3cbcb3bb247c420aa15027d1f231ca2b7d.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-9da1e50003e92e59bdd402bf22513fa357161a5d.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3ed33ae302139ee47b69527410ef7c6e4292c0dd.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-21d6a885c59730204bf325295ba404954c7cb501.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-1e6f9d9e6e6a9185e5f94c3049eb2334128f1d8f.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-5b5ced45beb24273f1ac6fa0a35cbbbbdfb278d6.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-7d5f3889ba854fc62b910dc4c2633388d2b98596.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-fcecae3754c9592388f9cee11be7501e6f89699f.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/Faayda/ViewPagerIndicator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e27367ca4c92e4b39e457fea6ef484c16d92209c">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-2e4d76ef53b075c5e7e336f850ac5379732d258e.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/Faayda/MPChartLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9787a534e5dde7ead3c0a5bd5e0742d2ccc6cdf0">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-fb7cb26f12177b2a676c1faa8ea0ca0670095960.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-e90cf0816f08230c09981a53897d090b6c0a2c0f.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-957d259820e023d22556776aa8eb004f3b30487c.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-127fef1b5a01f772d19b0402d895dde468c7ad13.jar" />
+    </item>
+    <item
+        jar="/home/vinove/.gradle/caches/modules-2/files-2.1/cn.trinea.android.view.autoscrollviewpager/android-auto-scroll-view-pager/1.1.2/8ad9237a8b0965696ea32ca9c1de173e082eaad4/android-auto-scroll-view-pager-1.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8ad9237a8b0965696ea32ca9c1de173e082eaad4">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/android-auto-scroll-view-pager-1.1.2-3786b7c619ee4972efee7c86656d8e58e77ba88e.jar" />
+    </item>
+    <item
+        jar="/home/vinove/Desktop/Faayda/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/vinove/Desktop/Faayda/app/build/intermediates/pre-dexed/debug/classes-dc48212ab80f172dc3312491114f7255c330c98e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/default_margin">
+
+    <ImageView
+        android:id="@+id/ivBankIcon"
+        android:layout_width="@dimen/bank_icon"
+        android:layout_height="@dimen/bank_icon"
+        android:adjustViewBounds="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivBankIcon"
+        android:layout_alignTop="@id/ivBankIcon"
+        android:layout_toEndOf="@id/ivBankIcon"
+        android:layout_toRightOf="@id/ivBankIcon"
+        android:padding="@dimen/default_margin_half">
+
+        <TextView
+            android:id="@+id/tvTransactionWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/bank_name"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tvTransactionDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTransactionWith"
+            android:textColor="@color/transaction_date"
+            android:textSize="@dimen/smaller_text" />
+
+        <TextView
+            android:id="@+id/accountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/tvTransactionDate"
+            android:textColor="@color/transaction_date"
+            android:textSize="@dimen/smaller_text" />
+
+        <ImageView android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next"/>
+
+        <TextView
+            android:id="@+id/tvTransactionAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ivArrow"
+            android:layout_toStartOf="@id/ivArrow"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:drawablePadding="@dimen/default_margin_half"
+            android:drawableLeft="@drawable/grey_rupee_symbol"
+            android:drawableStart="@drawable/grey_rupee_symbol"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text" />
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/vinove/Desktop/Desktop/Faayda_1/app/src/main/res/layout/transaction_list_item.xml -->
